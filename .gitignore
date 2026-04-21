@@ -1,0 +1,8 @@
+# Ignore all dot files and directories (e.g. .terraform/, .DS_Store)
+.*
+
+
+# But always track the GitHub Actions workflows
+!.gitignore
+!.github
+!.github/**

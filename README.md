@@ -141,7 +141,7 @@ The workflow at `.github/workflows/terraform.yml` runs on every **push to `main`
 ### Required setup
 
 - No Additional steps required unless the workflow needs to be run on other branches except main and prod.
-- If it is then the `on.push.branches` needs to be updated with the new branch name.
+- In that case, you'll need to update the `on.push.branches` configuration with the new branch name.
 - And further more needs to add a case for `Select tfvars` step with the `<new env>.tfvars` file
 
 ---
