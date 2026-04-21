@@ -40,9 +40,9 @@ jobs:
         run: |
           case "${GITHUB_REF_NAME}" in 
             main)
-              echo "tfvars=env/dev.tfvars" >> $GITHUB_OUTPUT ;;
+              echo "tfvars=envs/dev.tfvars" >> $GITHUB_OUTPUT ;;
             prod) 
-              echo "tfvars=env/prod.tfvars" >> $GITHUB_OUTPUT ;;
+              echo "tfvars=envs/prod.tfvars" >> $GITHUB_OUTPUT ;;
             *)
               echo "Unsupported branch" 
               exit 1 
