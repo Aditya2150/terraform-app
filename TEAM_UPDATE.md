@@ -15,7 +15,7 @@ We will be rolling out a containerized service on ECS Fargate within the dev env
 - GitHub Actions run `Terraform plan` on code push to `main` branch 
 
 ### Impact
-Low Risk change since it involves a new build in Dev environment
+No Impact to customers, newly build application and the environment.
 
 ### Timeline
 This change will be applied on 24th April 10:00 AM IST

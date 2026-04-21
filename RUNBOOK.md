@@ -50,8 +50,7 @@ Add the following variables for that environment:
 
 ## 3. How to Deploy the Application
 
-- At First 
-- Initalize the Terraform with **terraform init**
+- At First, Initalize the Terraform with **terraform init**
 - Plan the infrastructure changes with **terraform plan** cmd with -var-file parameter
 - Review the plan output. You should see resources being created only — no updates or destroys on a fresh account. If you see unexpected destroys, stop and investigate before proceeding.
 - After verification run **terraform apply** with the -var-file parameter
