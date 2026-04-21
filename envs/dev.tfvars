@@ -34,7 +34,7 @@ private_subnets = {
 container_name   = "Flask_app"
 container_cpu    = "256"
 container_memory = "512"
-container_count = 3
+container_count  = 3
 
 image_name    = "flask_image"
 image_version = "v1.0"
